@@ -3,7 +3,7 @@ package coding.stack;
 import java.util.Arrays;
 import java.util.Stack;
 
-public class RainWaterTrapping {
+public class RainWaterTrapping9 {
 	
 	public static void rwt(int[] arr) {
 		int n = arr.length;

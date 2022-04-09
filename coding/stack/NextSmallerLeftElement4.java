@@ -3,7 +3,7 @@ package coding.stack;
 import java.util.Arrays;
 import java.util.Stack;
 
-public class NextSmallerLeftElement {
+public class NextSmallerLeftElement4 {
 	
 	public static void nsl(int[] arr) {
 		int n = arr.length;

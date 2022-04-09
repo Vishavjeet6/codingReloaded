@@ -2,12 +2,12 @@ package coding.stack;
 
 import java.util.Stack;
 
-public class MinStackSpace {
+public class MinStackSpace10 {
 	
 	Stack<Integer> s;
 	Stack<Integer> ss;
 	
-	MinStackSpace(){
+	MinStackSpace10(){
 		s = new Stack<Integer>();
 		ss = new Stack<Integer>();
 	}
@@ -32,7 +32,7 @@ public class MinStackSpace {
 	}
 	
 	public static void main(String[] args) {
-		MinStackSpace o = new MinStackSpace();
+		MinStackSpace10 o = new MinStackSpace10();
 		o.push(18);
 		o.push(19);
 		o.push(15);

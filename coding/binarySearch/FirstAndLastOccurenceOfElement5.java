@@ -1,6 +1,6 @@
 package coding.binarySearch;
 
-public class FirstAndLastOccurenceOfElement {
+public class FirstAndLastOccurenceOfElement5 {
 
 	public static int binarySearchFirstOccurence(int [] arr, int x) {
 		int start = 0;

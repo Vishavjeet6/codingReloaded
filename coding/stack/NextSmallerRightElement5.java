@@ -3,7 +3,7 @@ package coding.stack;
 import java.util.Arrays;
 import java.util.Stack;
 
-public class NextSmallerRightElement {
+public class NextSmallerRightElement5 {
 
 	public static void nsr(int[] arr) {
 		int n = arr.length;

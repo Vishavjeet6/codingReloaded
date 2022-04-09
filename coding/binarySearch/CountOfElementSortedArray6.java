@@ -1,7 +1,7 @@
 package coding.binarySearch;
 
 
-public class CountOfElementSortedArray {
+public class CountOfElementSortedArray6 {
 
 	public static int binarySearchFirstOccurence(int [] arr, int x) {
 		int start = 0;

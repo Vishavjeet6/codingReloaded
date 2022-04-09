@@ -2,12 +2,12 @@ package coding.stack;
 
 import java.util.Stack;
 
-public class MinStack {
+public class MinStack11 {
 	
 	Stack<Integer> s;
 	int minElement;
 	
-	MinStack(){
+	MinStack11(){
 		s = new Stack<Integer>();
 	}
 	
@@ -39,7 +39,7 @@ public class MinStack {
 	}
 	
 	public static void main(String[] args) {
-		MinStack o = new MinStack();
+		MinStack11 o = new MinStack11();
 		o.push(18);
 		o.push(19);
 		o.push(15);

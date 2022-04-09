@@ -3,7 +3,7 @@ package coding.stack;
 import java.util.Arrays;
 import java.util.Stack;
 
-public class StockSpanProblem {
+public class StockSpanProblem6 {
 	
 	public static void ngl(int[] arr) {
 		int n = arr.length;
