@@ -5,7 +5,7 @@ import java.util.Comparator;
 import java.util.Map;
 import java.util.PriorityQueue;
 
-public class FiveKClosestNumbers5 {
+public class KClosestNumbers5 {
 //	key is difference
 	public static void main(String[] args) {
 		int arr[] = new int[] {5,6,7,8,9};
