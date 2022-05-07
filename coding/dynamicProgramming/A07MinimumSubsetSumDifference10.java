@@ -10,7 +10,6 @@ public class A07MinimumSubsetSumDifference10 {
 		
 //		abs(s1-s2)=> minimize
 		int sum = Arrays.stream(arr).sum();
-		int start = 0;
 		int end = (sum)/2;
 		boolean[][] t = new boolean[n+1][end+1];
 		for(int i=0; i<n+1; i++) {

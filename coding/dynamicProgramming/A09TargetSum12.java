@@ -2,12 +2,13 @@ package coding.dynamicProgramming;
 
 import java.util.Arrays;
 
-public class A08Countthenumberofsubsetwithagivendifference11 {
+public class A09TargetSum12 {
 	
 	public static void main(String[] args) {
-		int arr[] = new int[] {1,1,2,3,};
-		int diff = 1;
-		knapSackDP(arr, diff);
+		int [] arr = new int[] {1,1,2,3};
+		int sum = 1;
+//		+1-1-2+3
+		knapSackDP(arr, sum);
 	}
 
 	private static void knapSackDP(int[] arr, int diff) {
@@ -35,5 +36,4 @@ public class A08Countthenumberofsubsetwithagivendifference11 {
 		System.out.println(t[n][targetSum]);
 		
 	}
-
 }
