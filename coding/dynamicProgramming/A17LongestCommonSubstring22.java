@@ -11,7 +11,7 @@ public class A17LongestCommonSubstring22 {
 		System.out.println(lcs(x,y, n, m));
 	}
 
-	private static int lcs(String x, String y, int n, int m) {
+	static int lcs(String x, String y, int n, int m) {
 		// TODO Auto-generated method stub
 		if(n==0 || m==0) {
 			return 0;

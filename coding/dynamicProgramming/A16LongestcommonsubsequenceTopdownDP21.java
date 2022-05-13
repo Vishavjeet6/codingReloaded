@@ -1,5 +1,7 @@
 package coding.dynamicProgramming;
 
+import java.util.Arrays;
+
 public class A16LongestcommonsubsequenceTopdownDP21 {
 	
 	public static void main(String[] args) {
@@ -25,6 +27,10 @@ public class A16LongestcommonsubsequenceTopdownDP21 {
 				}
 			}
 		}
+		
+//		for(int w[] : t) {
+//			System.out.println(Arrays.toString(w));
+//		}
 		
 		return t[n][m];
 	}
