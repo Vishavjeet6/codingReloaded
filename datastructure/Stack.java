@@ -4,7 +4,7 @@ public class Stack {
 	
 	static int MAX = 1000;
 	int top;
-	int arr[] = new int[MAX];
+	int[] arr = new int[MAX];
 	
 	
 	Stack() {

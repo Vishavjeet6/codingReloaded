@@ -11,3 +11,5 @@
 * dynamic-programming - https://youtube.com/playlist?list=PL_z_8CaSLPWekqhdCPmFohncHwz8TY2Go
 
 * backtracking - https://www.youtube.com/playlist?list=PL_z_8CaSLPWdbOTog8Jxk9XOjzUs3egMP
+
+* graphs - https://www.youtube.com/watch?v=fKyMBuJuRyk&list=PL_z_8CaSLPWcn5bKG8UMI0St2D5EmQszx
