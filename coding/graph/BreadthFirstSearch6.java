@@ -28,15 +28,18 @@ public class BreadthFirstSearch6 {
         Map<Integer, List<Integer>> adjList = new HashMap<>();
 
         for (int[] edge : edgeList) {
-            if (!adjList.containsKey(edge[0])) {
-                adjList.put(edge[0], new ArrayList<>());
-            }
-            adjList.get(edge[0]).add(edge[1]);
+//            if (!adjList.containsKey(edge[0])) {
+//                adjList.put(edge[0], new ArrayList<>());
+//            }
+//            adjList.get(edge[0]).add(edge[1]);
+//
+//            if (!adjList.containsKey(edge[1])) {bfs
+//                adjList.put(edge[1], new ArrayList<>());
+//            }
+//            adjList.get(edge[1]).add(edge[0]);
+            adjList.computeIfAbsent(edge[0], x -> new ArrayList<>()).add(edge[1]);
+            adjList.computeIfAbsent(edge[1], x -> new ArrayList<>()).add(edge[0]);
 
-            if (!adjList.containsKey(edge[1])) {
-                adjList.put(edge[1], new ArrayList<>());
-            }
-            adjList.get(edge[1]).add(edge[0]);
         }
 
         int start = 0;
