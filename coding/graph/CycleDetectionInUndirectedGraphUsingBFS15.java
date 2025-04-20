@@ -4,6 +4,9 @@ import java.util.*;
 
 public class CycleDetectionInUndirectedGraphUsingBFS15 {
 //    https://www.geeksforgeeks.org/problems/detect-cycle-in-an-undirected-graph/1
+//    TC -> O(V + E)
+//    SC -> O(2V)(visited+parent) -> O(V)
+
 static class Solution {
     // Function to detect cycle in an undirected graph.
     public boolean isCycle(ArrayList<ArrayList<Integer>> adj) {
