@@ -21,12 +21,8 @@ public class TopologicalSortUsingDFS23 {
                     dfs(i, adjList, visited, deque);
                 }
             }
-            ArrayList<Integer> ans = new ArrayList<>();
-            for(int node : deque){
-                ans.add(node);
-            }
             // System.out.println(deque);
-            return ans;
+            return new ArrayList<>(deque);
         }
 
         public void dfs(int node, Map<Integer, List<Integer>> adjList, boolean[] visited, Deque<Integer> deque){
