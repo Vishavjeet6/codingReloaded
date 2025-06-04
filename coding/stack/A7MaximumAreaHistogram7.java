@@ -4,11 +4,13 @@ import java.util.Arrays;
 import java.util.Stack;
 
 public class A7MaximumAreaHistogram7 {
+
+//	https://www.geeksforgeeks.org/largest-rectangular-area-in-a-histogram-using-stack/
 	
 	public static void mah(int[] arr) {
 		int n = arr.length;
 		int maxArea = 0;
-		int currArea = 0;
+		int currArea;
 		Stack<Integer> nsl = new Stack<>();
 		Stack<Integer> nsr = new Stack<>();
 		int [] nl = new int[n];

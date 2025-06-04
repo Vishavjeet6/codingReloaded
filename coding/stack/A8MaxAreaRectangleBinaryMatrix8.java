@@ -43,7 +43,10 @@ public class A8MaxAreaRectangleBinaryMatrix8 {
 	
 	
 	public static void main(String[] args) {
-		int [][] arr = new int[][] {{1,0,1,0,0},{1,0,1,1,1},{1,1,1,1,1},{1,0,0,1,0}};
+		int [][] arr = new int[][] {{1,0,1,0,0},
+									{1,0,1,1,1},
+									{1,1,1,1,1},
+									{1,0,0,1,0}};
 		int [] hist = new int [arr[0].length];
 		
 		int maxhistArea = 0;

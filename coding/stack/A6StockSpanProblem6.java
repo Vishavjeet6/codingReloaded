@@ -4,6 +4,7 @@ import java.util.Arrays;
 import java.util.Stack;
 
 public class A6StockSpanProblem6 {
+//	https://www.geeksforgeeks.org/the-stock-span-problem/
 	
 	public static void ngl(int[] arr) {
 		int n = arr.length;
@@ -13,17 +14,14 @@ public class A6StockSpanProblem6 {
 			while(!st.isEmpty() && arr[st.peek()] <= arr[i]) {
 				st.pop();
 			}
-			
 			ans[i] = st.isEmpty() ? i+1 : i-st.peek();
 			st.push(i);
 		}
-		
 		System.out.println(Arrays.toString(ans));
 	}
 	
 	public static void main(String[] args) {
 		ngl(new int[] {100, 80, 60, 70, 60, 75, 85});
-		
 	}
 
 }
